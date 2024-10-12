@@ -27,7 +27,7 @@ for i in range(0, n):
     # adding the element
     lst.append(ele)  
  
-print(lst) 
+print(f"Original List : {lst}") 
 # Sorting the array [12, 11, 13, 5, 6] using insertionSort
 insertionSort(lst)
-print(lst)
+print(f"Sorted List : {lst}")
